@@ -1,0 +1,382 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header-main {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
+  border: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: none;
+  background-color: #0d1811b2;
+
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+
+
+  flex-wrap: wrap;
+}
+
+.essence-con {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+  padding: 8px;
+
+  align-items: center;
+  margin-left: auto;
+  flex-wrap: wrap;
+
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.char-name {
+  margin-left: 5%;
+  font-family: "Helvetica", sans-serif;
+  font-size: 140%;
+  background-color: #2e4b395e;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.text-essence {
+  margin-left: 1%;
+  font-family: "Helvetica", sans-serif;
+  font-size: 110%;
+  background-color: #2e4b395e;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.build-con {
+  display: flex;
+  align-items: start;
+  
+  gap: 5px;
+  border: 2px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #0d1811b2;
+}
+
+.build_stats{
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border-right: 2px solid black;
+  
+}
+
+.all-stats {
+  display: flex;
+  gap: 10px;
+  padding:  10px;
+  flex-wrap: wrap;
+}
+
+.stats-skills-passive-con {
+  display: flex;
+  
+
+  align-items: flex-start;
+  justify-content: start;
+
+  flex-flow: column;
+  gap: 20px;
+  
+
+  width: fit-content;
+}
+
+.stat-con {
+  width: 280px;
+}
+
+.stat-name {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Helvetica", sans-serif;
+
+  width: 276px;
+  margin-bottom: 3px;
+}
+
+.ability-checks {
+  display: flex;
+  margin-bottom: 3px;
+  gap: 2px;
+}
+
+.stat-check {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Helvetica", sans-serif;
+
+  width: 137px;
+}
+
+.stat-saving-throw {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Helvetica", sans-serif;
+
+  width: 137px;
+}
+
+.check-button {
+}
+
+.saving-throw-button {
+}
+
+.skill {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Helvetica", sans-serif;
+
+  width: 276px;
+  margin-bottom: 1px;
+}
+
+.passive-other-con {
+  
+}
+
+.passives {
+  width: 280px;
+  padding-bottom: 5px;
+}
+
+.passive-h {
+  font-family: "Helvetica", sans-serif;
+
+  width: 276px;
+  margin-bottom: 1px;
+}
+
+.passive {
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Helvetica", sans-serif;
+
+  width: 276px;
+  margin-bottom: 1px;
+}
+
+.other-con {
+  width: 280px;
+}
+
+.heading-other {
+  font-family: "Helvetica", sans-serif;
+}
+
+.other-skills-languages {
+  width: 276px;
+  height: 424px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+
+  font-family: "Helvetica", sans-serif;
+}
+
+.sec_char_and_other{
+  display: flex;
+  width: max-content;
+  
+  padding: 10px;
+  
+}
+
+.sec_char_and_other_column{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.secondary_characteristics {
+  display: flex;
+
+  width: 280px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+  
+  align-items: center;
+  padding: 0;
+  
+}
+
+.pair_secondary_characteristics {
+  display: flex;
+  flex-flow: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  height: 170px;
+  
+  margin: 1px;
+}
+
+.sec_characteristic{
+  display: flex;
+  width: 80px;
+  height: 60px;
+
+  align-items: center;
+  justify-content: center;
+  
+  margin: 2px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.name_of_sec_characteristic{
+  font-family: "Helvetica", sans-serif;
+  font-size: 90%;
+  text-align: center;
+}
+
+.character_hits{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  width: 280px;
+  gap: 2px;
+  padding: 5px;
+
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+  .current_hits{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+
+    width: 270px;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    gap: 5px;
+    padding: 3px;
+  }
+
+    .max_hits_con{
+      display: flex;
+      width: max-content;
+      align-items: center;
+      
+      gap: 5px;
+    }
+      .span_max_hits{
+        font-family: "Helvetica", sans-serif;
+        font-size: 90%;
+        width: max-content;
+      }
+      
+        .max_hits_value{
+          text-align: center;
+
+          width: 80px;
+          height: 35px;
+          background-color: #2e4b395e;
+          
+          border: none;
+          border-radius: 5px;
+          font-family: "Helvetica", sans-serif;
+          font-size: 100%;
+          outline: none;
+        }
+
+    .current_hits_con{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: max-content;
+      
+      gap: 5px;
+    }
+
+      .current_hits_value{
+        box-sizing: border-box;
+        text-align: center;
+
+        width: max-content;
+        height: 40px;
+        padding: 0;
+
+        border: none;
+        border-radius: 5px;
+        background-color: #2e4b395e;
+
+        cursor: pointer;
+        font-family: "Helvetica", sans-serif;
+        font-size: 100%;
+        outline: none;
+      }
+
+      .span_current_hits{
+        font-family: "Helvetica", sans-serif;
+        font-size: 90%;
+      }
+
+  .temporary_hits{
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 20px;
+  }
+
+  .other_hits_info{
+    display: flex;
+    align-items: center;
+
+    width: 280px;
+    height: 30px;
+    border: 2px solid black;
+
+    gap: 2px;
+  }
+
+    .hits_dice{
+      width: 138px;
+      border: 2px solid black;
+      height: 20px;
+    }
+
+    .death_saving_throws{
+      width: 138px;
+      border: 2px solid black;
+      height: 20px;
+    }

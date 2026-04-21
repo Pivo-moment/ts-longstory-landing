@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/x-icon" href="d20.jpg" />
+  <link rel="stylesheet" href="/src/style.css" />
+  <script type="module" src="/src/main.ts"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ts-longstory-landing</title>
+</head>
+
+<body>
+  <main>
+    <header class="header-main">
+      <input placeholder="Имя Персонажа" class="char-name" />
+      <div class="essence-con">
+        <input placeholder="Класс" class="text-essence" />
+        <input placeholder="Предыстория" class="text-essence" />
+        <input placeholder="Имя игрока" class="text-essence" />
+        <input placeholder="Раса" class="text-essence" />
+        <input placeholder="Мировоззрение" class="text-essence" />
+        <input placeholder="Опыт" class="text-essence" />
+        <input placeholder="Уровень" class="text-essence" />
+      </div>
+    </header>
+
+    <div class="build-con">
+      <div class="build_stats">
+        <div class="all-stats">
+          <div class="stats-skills-passive-con">
+            <div class="stat-con">
+              <h2 class="stat-name">СИЛА</h2>
+              <div class="ability-checks">
+                <div class="stat-check">
+                  ПРОВЕРКА<button class="check-button"></button>
+                </div>
+                <div class="stat-saving-throw">
+                  СПАСБРОСОК<button class="saving-throw-button"></button>
+                </div>
+              </div>
+              <div class="skill">АТЛЕТИКА</div>
+            </div>
+
+            <div class="stat-con">
+              <h2 class="stat-name">ЛОВКОСТЬ</h2>
+              <div class="ability-checks">
+                <div class="stat-check">
+                  ПРОВЕРКА<button class="check-button"></button>
+                </div>
+                <div class="stat-saving-throw">
+                  СПАСБРОСОК<button class="saving-throw-button"></button>
+                </div>
+              </div>
+              <div class="skill">АКРОБАТИКА</div>
+              <div class="skill">ЛОВКОСТЬ РУК</div>
+              <div class="skill">СКРЫТНОСТЬ</div>
+            </div>
+
+            <div class="stat-con">
+              <h2 class="stat-name">ТЕЛОСЛОЖЕНИЕ</h2>
+              <div class="ability-checks">
+                <div class="stat-check">
+                  ПРОВЕРКА<button class="check-button"></button>
+                </div>
+                <div class="stat-saving-throw">
+                  СПАСБРОСОК<button class="saving-throw-button"></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="stat-con">
+              <h2 class="stat-name">ИНТЕЛЛЕКТ</h2>
+              <div class="ability-checks">
+                <div class="stat-check">
+                  ПРОВЕРКА<button class="check-button"></button>
+                </div>
+                <div class="stat-saving-throw">
+                  СПАСБРОСОК<button class="saving-throw-button"></button>
+                </div>
+              </div>
+              <div class="skill">АНАЛИЗ</div>
+              <div class="skill">ИСТОРИЯ</div>
+              <div class="skill">МАГИЯ</div>
+              <div class="skill">ПРИРОДА</div>
+              <div class="skill">РЕЛИГИЯ</div>
+            </div>
+
+            <div class="stat-con">
+              <h2 class="stat-name">МУДРОСТЬ</h2>
+              <div class="ability-checks">
+                <div class="stat-check">
+                  ПРОВЕРКА<button class="check-button"></button>
+                </div>
+                <div class="stat-saving-throw">
+                  СПАСБРОСОК<button class="saving-throw-button"></button>
+                </div>
+              </div>
+              <div class="skill">ВОСПРИЯТИЕ</div>
+              <div class="skill">ВЫЖИВАНИЕ</div>
+              <div class="skill">МЕДИЦИНА</div>
+              <div class="skill">ПРОНИЦАТЕЛЬНОСТЬ</div>
+              <div class="skill">УХОД ЗА ЖИВОТНЫМИ</div>
+            </div>
+
+          </div>
+          <div class="stats-skills-passive-con">
+
+            <div class="stat-con">
+              <h2 class="stat-name">ХАРИЗМА</h2>
+              <div class="ability-checks">
+                <div class="stat-check">
+                  ПРОВЕРКА<button class="check-button"></button>
+                </div>
+                <div class="stat-saving-throw">
+                  СПАСБРОСОК<button class="saving-throw-button"></button>
+                </div>
+              </div>
+              <div class="skill">ВЫСТУПЛЕНИЕ</div>
+              <div class="skill">ЗАПУГИВАНИЕ</div>
+              <div class="skill">ОБМАН</div>
+              <div class="skill">УБЕЖДЕНИЕ</div>
+            </div>
+
+            <div class="passive-other-con">
+              <div class="passives">
+                <h5 class="passive-h">ПАССИВНЫЕ ЧУВСТВА</h5>
+                <div class="passive">МУДРОСТЬ(ВОСПРИЯТИЕ)</div>
+                <div class="passive">МУДРОСТЬ(ПРОНИЦАТЕЛЬНОСТЬ)</div>
+                <div class="passive">ИНТЕЛЛЕКТ(АНАЛИЗ)</div>
+              </div>
+              <div class="other-con">
+                <h5 class="heading-other">ПРОЧИЕ ВЛАДЕНИЯ И ЯЗЫКИ</h5>
+                <div contenteditable="true" role="textbox" translate="no" class="other-skills-languages"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="sec_char_and_other">
+        <div class="sec_char_and_other_column">
+
+          <div class="secondary_characteristics">
+            <div class="pair_secondary_characteristics">
+
+              <div class="sec_characteristic"></div>
+              <span class="name_of_sec_characteristic">щит</span>
+
+              <div class="sec_characteristic"></div>
+              <span class="name_of_sec_characteristic">вдохновение</span>
+
+            </div>
+            <div class="pair_secondary_characteristics">
+
+              <div class="sec_characteristic">+0</div>
+              <span class="name_of_sec_characteristic">инициатива</span>
+
+              <div class="sec_characteristic">+2</div>
+              <span class="name_of_sec_characteristic">владение</span>
+
+            </div>
+            <div class="pair_secondary_characteristics">
+
+              <div class="sec_characteristic">0</div>
+              <span class="name_of_sec_characteristic">скорость</span>
+
+              <div class="sec_characteristic">0</div>
+              <span class="name_of_sec_characteristic">истощение</span>
+
+            </div>
+          </div>
+
+
+          <div class="character_hits">
+
+            <div class="current_hits">
+
+              <div class="max_hits_con">
+                <span class="span_max_hits">Максимум хитов </span>
+                <input class="max_hits_value" type="number">
+              </div>
+
+              <div class="current_hits_con">
+                <input class="current_hits_value" type="number">
+                <span class="span_current_hits">ТЕКУЩИЕ ХИТЫ</span>
+              </div>
+
+            </div>
+
+            <div class="temporary_hits"></div>
+
+            <div class="other_hits_info">
+              <div class="hits_dice">
+
+              </div>
+              <div class="death_saving_throws">
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
