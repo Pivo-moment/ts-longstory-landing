@@ -183,26 +183,58 @@
               </div>
 
               <div class="current_hits_con">
+                <span class="span_current_temporary_hits">ТЕКУЩИЕ ХИТЫ</span>
                 <input class="current_temporary_hits_value" type="number">
-                <span class="span_current_hits">ТЕКУЩИЕ ХИТЫ</span>
               </div>
 
             </div>
 
             <div class="temporary_hits">
               <div class="temporary_hits_con">
+                <span class="span_current_temporary_hits">ВРЕМЕННЫЕ ХИТЫ</span>
                 <input class="current_temporary_hits_value" type="number">
-                <span class="span_current_hits">ВРЕМЕННЫЕ ХИТЫ</span>
               </div>
             </div>
 
             <div class="other_hits_info">
+
               <div class="hits_dice">
 
-              </div>
-              <div class="death_saving_throws">
+                <div class="total_number_of_hits">
+                  <span class="span_total_number_of_hits">Всего</span>
+                  <input type="number" class="total_number_of_hits_value">
+                </div>
+
+                <div class="value_of_dice_hits">
+                  <span class="span_value_of_dice_hits">КОСТЬ ХИТОВ</span>
+                  <select name="option" class="choice_value_of_dice_hits">
+                    <option value="1">d6</option>
+                    <option value="2">d8</option>
+                    <option value="3">d10</option>
+                    <option value="4">d12</option>
+                  </select>
+                </div>
 
               </div>
+
+              <div class="death_saving_throws">
+                <div class="span_death_saving_throws">СПАСБРОСКИ ОТ СМЕРТИ</div>
+
+                <div class="success_failure_death_saving_throws">
+                  <span class="span_success_failure">Успех </span>
+                  <input type="checkbox" class="death_saving_throws_checkbox">
+                  <input type="checkbox" class="death_saving_throws_checkbox">
+                  <input type="checkbox" class="death_saving_throws_checkbox">
+                </div>
+                <div class="success_failure_death_saving_throws">
+                  <span class="span_success_failure">Провал </span>
+                  <input type="checkbox" class="death_saving_throws_checkbox">
+                  <input type="checkbox" class="death_saving_throws_checkbox">
+                  <input type="checkbox" class="death_saving_throws_checkbox">
+                </div>
+
+              </div>
+
             </div>
 
           </div>
