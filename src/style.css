@@ -67,6 +67,7 @@ main {
 .build-con {
   display: flex;
   align-items: start;
+  flex-wrap: wrap;
   
   gap: 5px;
   border: 2px solid black;
@@ -81,11 +82,15 @@ main {
   flex-wrap: wrap;
   box-sizing: border-box;
   border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-bottom-right-radius: 5px;
   
 }
 
 .all-stats {
   display: flex;
+  
+  justify-content: center;
   gap: 10px;
   padding:  10px;
   flex-wrap: wrap;
@@ -93,10 +98,9 @@ main {
 
 .stats-skills-passive-con {
   display: flex;
-  
 
-  align-items: flex-start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 
   flex-flow: column;
   gap: 20px;
@@ -205,7 +209,7 @@ main {
 
 .sec_char_and_other{
   display: flex;
-  width: max-content;
+  align-items: start;
   
   padding: 10px;
   
@@ -492,4 +496,62 @@ main {
   font-family: "Helvetica", sans-serif;
   text-align: center;
   font-size: 80%;
+}
+
+.table_attacks_n_spells{
+  width: 280px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+
+.theader_sell_name_or_damage{
+  font-family: "Helvetica", sans-serif;
+  font-size: 60%;
+  background-color: #23382b5e;
+
+  border: none;
+  border-radius: 5px;
+
+  width: 108px;
+}
+.theader_sell_bonus{
+  font-family: "Helvetica", sans-serif;
+  font-size: 60%;
+  background-color: #23382b5e;
+
+  border: none;
+  border-radius: 5px;
+
+  width: 50px;
+}
+.tbody_sell_name_or_damage{
+  font-family: "Helvetica", sans-serif;
+  font-size: 60%;
+  
+  height: 20px;
+  width: 108px;
+}
+.tbody_sell_bonus{
+  font-family: "Helvetica", sans-serif;
+  font-size: 60%;
+  
+  height: 20px;
+  width: 50px;
+}
+
+.tsell_input{
+  width: 100%;
+  height: 100%;
+  
+  text-align: center;
+
+  font-family: "Helvetica", sans-serif;
+  font-size: 90%;
+
+  background-color: #2e4b395e;
+  border-radius: 5px;
+  border: none;
 }
